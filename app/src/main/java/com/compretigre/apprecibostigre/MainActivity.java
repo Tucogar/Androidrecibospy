@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
       this.myWebView = (WebView) this.findViewById(R.id.webview);
 
        WebView myWebView = (WebView) findViewById(R.id.webview);
-       myWebView.loadUrl("http://tucogarcia-001-site1.itempurl.com/recibospy/default");
+       myWebView.loadUrl("https://apps.sitesmart-app.com/apprecibosbo/default");
        //myWebView.setWebViewClient(new WebViewClient());
         myWebView.setWebViewClient(new MyBrowser());
         myWebView.setDownloadListener(new DownloadListener() {
